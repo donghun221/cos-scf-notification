@@ -12,6 +12,10 @@ import com.qcloud.scf.runtime.Context;
  * @param <O>
  */
 public interface RequestHandler<I, O> {
+    public static final String SUCCESS = "success";
+    public static final String ERROR = "error";
+    public static final String FAIL = "fail";
+    
     /**
      * Handles a SCF function request
      * @param input The SCF function input
