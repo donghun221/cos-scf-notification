@@ -36,6 +36,21 @@
   </build>
 
   <dependencies>
+     <!-- jUnit dependency -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/commons-validator/commons-validator -->
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <version>1.5.1</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.qcloud/cos_api -->
     <dependency>
       <groupId>com.qcloud</groupId>
@@ -84,6 +99,10 @@
       <artifactId>json</artifactId>
       <version>20180813</version>
     </dependency>
+    
+
+    
+
     
   </dependencies>
 </project>
